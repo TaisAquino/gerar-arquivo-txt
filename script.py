@@ -1,4 +1,7 @@
 from time import sleep
+import banner
+
+banner.imprimirBanner()
 
 nome_arquivo = input("[*] Digite o nome do Arquivo .txt: ")
 texto_arquivo = input("[*] Digite qualquer coisa: ")
