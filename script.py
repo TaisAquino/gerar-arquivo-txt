@@ -1,7 +1,7 @@
 from time import sleep
 
-nome_arquivo = str(input("[*] Digite o nome do Arquivo .txt: "))
-texto_arquivo = str(input("[*] Digite qualquer coisa: "))
+nome_arquivo = input("[*] Digite o nome do Arquivo .txt: ")
+texto_arquivo = input("[*] Digite qualquer coisa: ")
 
 print("Gerando Arquivo...")
 sleep(3)
